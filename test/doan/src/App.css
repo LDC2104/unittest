@@ -1,0 +1,496 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input password{
+  -webkit-text-security: circle;
+  -text-security: circle;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  margin-left: 47%;
+}
+.ml {
+  margin-left: 20%;
+}
+.xl {
+  margin-left: 10%;
+}
+.mc {
+  text-align: center;
+}
+.btc {
+  margin-left: 42%;
+}
+
+.pd {
+  margin-bottom: 20px;
+}
+.mt  {
+  margin-top: 20px;
+}
+.cr {
+  background-color: red;
+}
+.cy {
+  background-color: yellowgreen;
+}
+.ml-10 {
+  margin-left: 15px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.w {
+  width: 10px;
+  height: 10px;
+}
+.iwd {
+  width: 150px;
+}
+.wcn {
+  width: 50px;
+  height: 30px;
+}
+.iwp {
+  width: 70px;
+}
+.w1 {
+  width: 200px;
+  height: 20px;
+}
+.w2 {
+  width: 200px;
+}
+.f {
+  font-size: 6px;
+}
+.fx {
+  font-size: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.st {
+  display: flex;
+  flex-direction: column;
+}
+.fr {
+  float: right;
+}
+.xx {
+  margin-left: 85%;
+  margin-top: -4px;
+}
+.fl {
+  float: left;
+}
+.flex {
+  display: flex;
+}
+.btn1 {
+  width: 90%;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-left: 2%;
+  background-color: #5afd0e;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.b_1px {
+  border: grey solid 2px;
+}
+.ds1 {
+  font-size: 10px;
+}
+.tabledk {
+  font-size: 10px;
+}
+
+@import url('https://fonts.google.com/?query=Shippori+Mincho');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Shippori+Mincho';
+	font-size: 28px;
+	color: #222;
+}
+
+.panel-body {
+  padding: 0px 0px 0px 0px;
+}
+.navbar {
+	background-color: rgba(7, 126, 13, 0.9) !important;
+}
+.navbar li a {
+    color: white !important;
+	font-size: 20px;
+}
+.navbar li a:hover {
+    color: black !important;
+}
+.bgtitle{
+	background-color:  rgba(7, 126, 13, 0.9);
+	padding: 0.5rem;
+	color: white;
+}
+.titlename{
+	margin-top: 2%;
+}
+.accordion-group a{
+	font-size: 20px;
+}
+.container-fluid .padding{
+  padding-top: 12%;
+}
+.khungt{
+	border: solid 2px rgb(255, 254, 254);
+	width: 100%;
+	max-height: 30%;
+	background-color:  rgba(19, 151, 26, 0.9);
+}
+.khungt a{
+	color: white;
+}
+.khungp{
+	border: solid 1px black;
+	max-width: 100%;
+  height: 600px;
+}
+.allk {
+  display: flex;
+  flex-wrap: wrap;
+}
+.khung{
+	border: solid 2px black;
+	width: 45%;
+  height: 20%;
+  margin-left: 3%;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.khung:hover {
+  background-color: lightgreen;
+}
+.xc {
+  color: white;
+  font-size: 20px;
+  padding-top: 5%;
+}
+.khung h3{
+	width: 100%;
+  height: 100%;
+  font-size: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.khung a{
+  text-decoration: none;
+}
+
+.bgcontent{
+	margin-top: 0.5rem;
+}
+.bgcontent div.Table table{
+	border: 1px solid black;
+	max-width: 100%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 10px;
+}
+tr, td, th{
+    border: 1px solid #CCC;
+   	padding: 3px;
+}
+caption{
+	font-size: 25px;
+	font-weight: bold;
+}
+@media only screen and (max-width: 700px) {
+    div {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+.add{
+	margin-left: 5%;
+	border-radius: 5px;
+	background: #fff;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 200;
+	color: #000;
+	cursor: pointer;
+}
+.add:hover{
+	background: rgb(0, 0, 0, 0.2);
+}
+.dk{
+	padding: 0 1%;
+	cursor: pointer;
+}
+.fa-angular {
+	color: rgb(177,43,55);
+}
+.fa-css3 {
+	color: #D76537;
+}
+.fa-react, .fa-angular, .fa-css3 {
+	font-size: 4em;
+	margin: 1rem;
+}
+.fun {
+	width: 100%;
+}
+.divmain i{
+	font-size: 0.8rem;
+}
+.divmain a{
+	font-size: 0.6rem;
+}
+.social a {
+	font-size: 3em;/*1em = 16px*/
+	padding: 3rem;/*1rem = 1 "font-size" */
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;	
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+.login{
+  cursor: pointer;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%); */
+}
+.show-btn{
+  background: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3498db;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.container{
+  background: #fff;
+  width: 410px;
+  padding: 30px 30px;
+  margin-top: 1%;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.container .text{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.forgot-pass{
+  font-size: 15px;
+  padding-top: 20px;
+}
+.signup-link {
+  font-size: 15px;
+}
+.container .logo img{
+    width: 100px;
+    margin: 0 35%;
+}
+.container form{
+  margin-top: -20px;
+}
+.container form .data{
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+form .data label{
+  font-size: 18px;
+}
+form .data input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+}
+form .data input:focus{
+  border-color: #3498db;
+  border-bottom-width: 2px;
+}
+form .forgot-pass{
+  margin-top: -8px;
+}
+form .forgot-pass a{
+  color: #3498db;
+  text-decoration: none;
+}
+form .forgot-pass a:hover{
+  text-decoration: underline;
+}
+form .btn{
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .inner{
+  height: 100%;
+  width: 300%;
+  /* position: absolute;
+  left: -100%;
+  z-index: -1; */
+  background: -webkit-linear-gradient(right, #00aa25, #5afd0e, #00aa25, #5afd0e);
+  transition: all 0.4s;
+}
+form .btn:hover .inner{
+  left: 0;
+}
+form .btn button{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+form .signup-link{
+  text-align: center;
+}
+form .signup-link a{
+  color: #3498db;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+.submit-button{
+  background: -webkit-linear-gradient(right, #00aa25, #5afd0e, #00aa25, #5afd0e) !important;
+  color:white !important;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.modalx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-mainx {
+  position:fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.display-block {
+  display: block;
+}
+
+
